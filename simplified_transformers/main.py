@@ -1,8 +1,7 @@
 import torch
 from einops import rearrange
 from torch import einsum, nn
-from local_attention import LocalAttention
-from zeta.nn import FeedForward
+from zeta.nn import FeedForward, LocalAttention
 
 # helpers
 
